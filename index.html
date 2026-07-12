@@ -56,6 +56,46 @@
       color: #fff;
     }
 
+    .app-card {
+      background: #f4f7fc;
+      border-radius: 10px;
+      padding: 28px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .app-card .app-info h3 {
+      font-size: 1.05rem;
+      color: #1a1a2e;
+      margin-bottom: 10px;
+    }
+
+    .app-card .app-info p {
+      font-size: 0.9rem;
+      line-height: 1.8;
+      color: #666;
+    }
+
+    .app-card a.app-link {
+      flex-shrink: 0;
+      display: inline-block;
+      background: #1a1a2e;
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+      transition: background 0.2s;
+    }
+
+    .app-card a.app-link:hover {
+      background: #2d2d5e;
+    }
+
     section {
       max-width: 800px;
       margin: 0 auto;
@@ -188,6 +228,7 @@
   <nav>
     <a href="#about">About</a>
     <a href="#services">Services</a>
+    <a href="#works">Works</a>
     <a href="#contact">Contact</a>
     <a href="privacy.html">Privacy Policy</a>
   </nav>
@@ -217,6 +258,17 @@
       </div>
     </section>
   </div>
+
+  <section id="works">
+    <h2>Works</h2>
+    <div class="app-card">
+      <div class="app-info">
+        <h3>お品書きメーカー</h3>
+        <p>推し活グッズの交換お品書き・在庫管理ツール『お品書きメーカー』。手持ちグッズの一覧をきれいなお品書き画像として簡単に作成できます。</p>
+      </div>
+      <a class="app-link" href="https://oshinagaki.kosimizu.net/">アプリを見る</a>
+    </div>
+  </section>
 
   <section id="contact">
     <h2>Contact</h2>
